@@ -1,0 +1,409 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>kitchenresa.com</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href='https://fonts.googleapis.com/css?family=Exo+2:300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container"> 
+	<!--Header part begins-->
+	<div class="clearfix">
+		<div class="logo-box">
+			<div class="logo text-center"><a href="index.html"><img src="images/logo.png" alt="kitchenresa.com" /></a></div>
+			<div class="menu-box text-center">
+				<div class="menu"><a href="index.html">Home</a></div>
+				<div class="menu"><a href="products.html">Products</a></div>
+				<div class="menu" style="border:0px;"><a href="contacts.html">Contacts</a></div>
+				<div class="menu" style="border:0px;"><a href="onlinestore.html" class="online-store">Online Store</a></div>
+			</div>
+		</div>
+		<div class="caurosal-box"> <img src="images/banner1.jpg" alt="banner1" /> </div>
+	</div>
+	<!--header part ends and body starts-->
+	<div class="clearfix">
+		<h1 class="top-head text-center">Online Store</h1>
+		<div class="content-body clearfix">
+		  <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/mustard.jpg" alt="mustard"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Mustard (Kaduk)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>60Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Mustard (Kaduk)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/kurumulak.jpg" alt="Garlic"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Black Pepper (KuruMulak)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>150Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('pepper (kurumulak)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/tamarind.jpg" alt="Tamarind"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Tamarind (Valan Puli)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>190Per 500g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Tamarind (Valan Puli)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		  <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/fenugreek.jpg" alt="Methi or Fenugreek Seeds (Uluva)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Methi or Fenugreek Seeds (Uluva)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>170Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Methi or Fenugreek Seeds (Uluva)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/kashmiri-chilli.jpg" alt="Kashmiri Chilly"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Kashmiri Chilly</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>169Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Kashmiri Chilly','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/kudampuli.jpg" alt="Dry Garcinia Cambogia (Kudam puli)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Dry Garcinia Cambogia (Kudam puli)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>150Per 250g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Dry Garcinia Cambogia (Kudam puli)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/dry-ginger.jpg" alt="Dry Ginger (Chukku)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Dry Ginger (Chukku)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>170Per 250g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Dry Ginger (Chukku)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/tapioca.jpg" alt="Dried Tapiocca (Unakka Kappa)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Dried Tapiocca (Unakka Kappa)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>110Per 500g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Dried Tapiocca (Unakka Kappa)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/vinegar.jpg" alt="Vinegar"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Vinegar</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>400Per 500ML</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Vinegar','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/asafoiteda.jpg" alt="Asafetida Powder (Kayam)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">asafoetida Powder (Kayam)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>128Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('asafoetida Powder (Kayam)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/curd-chilli.jpg" alt="Kondattam Mulagu (Sun Dried Curd Chillies)"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Kondattam Mulagu (Sun Dried Curd Chillies)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>120Per 100g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Kondattam Mulagu (Sun Dried Curd Chillies)','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/rasam-powder.jpg" alt="Rasam Powder"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Rasam Powder</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>120Per 200g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Rasam Powder','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+            
+          <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/garlic.jpg" alt="Vinegar"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Garlic (Veluthulli)</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>160Per 1Kg</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Garlic','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/FD-Jackfruit.jpg" alt="Jackfruit"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Dry Jack Fruit</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>600 Per 500g</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Dry Jack Fruit','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/basmati-rise.jpg" alt="white basmati rise"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Basmati Biryani Rice</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class="fa fa-rupee"></i>150 Per KG</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Basmati Biryani Rice','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+             <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/Tender Coconut.jpg" alt="Tender coconut"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Tender Coconut</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"></div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Tender coconut','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            <div class="product-box col-sm-4">
+				<div class="product-list">
+					<div class="product-image"><img src="images/virginoconut-oil-3.jpg" alt="white basmati rise"></div>
+					<div class="product-details">
+						<h1 class="product-heading text-center">Virgin Coconut Oil</h1>
+						<div class="clearfix">
+							<div class="col-sm-6 col-xs-6 price-box"><i class=""></i>250 ml –Rs.321(4.5USD)</div>
+							<div class="col-sm-6 col-xs-6">
+								<button class="buy" data-toggle="modal" data-target="#myModal" onClick="modalVal('Virgin Coconut Oil','10.00')">BUY NOW</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+            
+            
+          <p>&nbsp;</p>
+		</div>
+	</div>
+</div>
+<footer>
+	<div class="bg-green">
+		<div class="container text-center">
+			<p><a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="products.html">Products</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; <a href="contacts.html">Contacts</a></p>
+			<div class="view-all-container text-center"><a href="onlinestore.html" class="view-all">Online Store</a></div>
+			<p>All rights Reserved &copy; kitchenresa.com</p>
+		</div>
+		<div class="sofdia text-center">Powered by <a href="http://www.sofdia.in" target="_blank">Sofdia Technologies</a></div>
+	</div>
+</footer>
+<div id="myModal" class="modal fade" role="dialog">
+	<div class="modal-dialog"> 
+		
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal">x</button>
+				<h4 class="modal-title" id="modal-title">Modal Header</h4>
+			</div>
+			<div class="modal-body">
+				<form   method="POST"  action="mail.php">
+					<p><input type="text" name="name" placeholder="Your Name" class="form-control"></p><br>
+					<p><input type="email" name="email" placeholder="Your Email" class="form-control"></p><br>
+					<p><input type="tel" name="phone" placeholder="Your Phone Number" class="form-control"></p><br>
+					<p>Quantity in KGs
+						<div class="input-group">
+						  <span class="input-group-btn">
+							  <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+								  <span class="glyphicon glyphicon-minus"></span>
+							  </button>
+						  </span>
+						  <input type="text" name="quant[1]" class="form-control input-number" value="1" min="1" max="100">
+						  <span class="input-group-btn">
+							  <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+								  <span class="glyphicon glyphicon-plus"></span>
+							  </button>
+						  </span>
+					  </div>
+					</p><br>
+					<p class="text-right"><input type="submit" value="BUY" class="btn btn-danger"></p>
+					<input type="hidden" name="baseprice" id="bprice">
+					<input type="hidden" name="totalprice" id="tprice">
+					<input type="hidden" name="item" id="item">
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<script>
+function modalVal(a,b){
+	$("#modal-title").html("Ordering "+a);
+	$("#item").val(a);
+	$("#bprice").val(b);
+}
+$('.btn-number').click(function(e){
+    e.preventDefault();
+    
+    fieldName = $(this).attr('data-field');
+    type      = $(this).attr('data-type');
+    var input = $("input[name='"+fieldName+"']");
+    var currentVal = parseInt(input.val());
+    if (!isNaN(currentVal)) {
+        if(type == 'minus') {
+            
+            if(currentVal > input.attr('min')) {
+                input.val(currentVal - 1).change();
+            } 
+            if(parseInt(input.val()) == input.attr('min')) {
+                $(this).attr('disabled', true);
+            }
+
+        } else if(type == 'plus') {
+
+            if(currentVal < input.attr('max')) {
+                input.val(currentVal + 1).change();
+            }
+            if(parseInt(input.val()) == input.attr('max')) {
+                $(this).attr('disabled', true);
+            }
+
+        }
+    } else {
+        input.val(0);
+    }
+});
+$('.input-number').focusin(function(){
+   $(this).data('oldValue', $(this).val());
+});
+$('.input-number').change(function() {
+    
+    minValue =  parseInt($(this).attr('min'));
+    maxValue =  parseInt($(this).attr('max'));
+    valueCurrent = parseInt($(this).val());
+    
+    name = $(this).attr('name');
+    if(valueCurrent >= minValue) {
+        $(".btn-number[data-type='minus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the minimum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    if(valueCurrent <= maxValue) {
+        $(".btn-number[data-type='plus'][data-field='"+name+"']").removeAttr('disabled')
+    } else {
+        alert('Sorry, the maximum value was reached');
+        $(this).val($(this).data('oldValue'));
+    }
+    
+    
+});
+$(".input-number").keydown(function (e) {
+        // Allow: backspace, delete, tab, escape, enter and .
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 190]) !== -1 ||
+             // Allow: Ctrl+A
+            (e.keyCode == 65 && e.ctrlKey === true) || 
+             // Allow: home, end, left, right
+            (e.keyCode >= 35 && e.keyCode <= 39)) {
+                 // let it happen, don't do anything
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 48 || e.keyCode > 57)) && (e.keyCode < 96 || e.keyCode > 105)) {
+            e.preventDefault();
+        }
+    });
+</script>
+</body>
+</html>
